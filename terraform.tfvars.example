@@ -1,0 +1,15 @@
+# Copiez ce fichier en terraform.tfvars et remplissez les valeurs
+# NE JAMAIS commiter terraform.tfvars dans git
+
+aws_region    = "ca-central-1"
+environnement = "prod"
+domaine       = "lamenagere.ca"
+app_url       = "https://lamenagere-three.vercel.app"
+alerte_email  = "votre-email@example.com"
+
+# Supabase — Settings → API
+supabase_url              = "https://xxxx.supabase.co"
+supabase_service_role_key = "eyJ..."
+
+# Resend — API Keys
+resend_api_key = "re_..."
